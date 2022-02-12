@@ -7,12 +7,17 @@
 #     print('{0} - не является квадрато числа {1}'.format(b, a))
 
 # 18 Проверить истинность утверждения ¬(X ⋁ Y) = ¬X ⋀ ¬Y
-x = int (-5)
-y = int (5) 
-if not (x or y) == (y):
-    print(x)
-else:
-    print('НУ вы блин ')
+# x = int (5)
+# y = int (4)
+# res1 = not(x or y)
+# res2 = not x and not y
+# # print(res1)
+# # print(res2)
+# if res1 == res2:
+#     print('true')
+# else:
+#     print('false')
+
 
 
 # 19 пределить номер четверти плоскости, в которой находится точка с координатами Х и У, причем X ≠ 0 и Y ≠ 0
