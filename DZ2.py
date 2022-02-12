@@ -44,26 +44,41 @@
 #     print('диапазон координт от X>0 и Y<0')
 
 # 21 Программа проверяет пятизначное число на палиндромом.
-a = 567
-b=a
-invert = 0
-while a!=0:
-    invert = invert *10 + (a%10)
-    a//=10
-print(invert)
-if b == invert:
-    print('чисол является палиндромом')
-else:
-    print('чисол не является палиндромом')
-
-# for i in range(0,2):
-#     invert = (a%10)+(a%100)
-#     print(invert)
-#   print('c')
+# a = 567
+# b=a
+# invert = 0
+# while a!=0:
+#     invert = invert *10 + (a%10)
+#     a//=10
+# print(invert)
+# if b == invert:
+#     print('чисол является палиндромом')
 # else:
 #     print('чисол не является палиндромом')
+
 # 22 Найти расстояние между точками в пространстве 2D/3D
+# # x1 = int (input())
+# # y1 = int (input())
+# OneXY = {2,2}
+# TwoXY = {5,5}
+# result=0
+# # x2 = int (input())
+# # y2 = int (input())
+# #z2 = int (input())
+# if TwoXY<OneXY:
+#     result = OneXY[0]-TwoXY[0] and OneXY[1]-TwoXY[1]
+#     print (result)
+# else:
+#     result = TwoXY[0]-OneXY[0] and TwoXY[1]-OneXY[1]
+#     print (result)
+# #resultz= 0
+
 # 23 Показать таблицу квадратов чисел от 1 до N
+# n = int (input('введите число '))
+# for i in range (1,n+1):
+#     n =i**2
+#     print (n)
+
 # 24 Найти кубы чисел от 1 до N
 # 25 Найти сумму чисел от 1 до А
 # 26 Возведите число А в натуральную степень B используя цикл
